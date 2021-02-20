@@ -10,23 +10,29 @@ public class Grades {
         this.eng = eng;
         this.pro = pro;
     }
+    
+    public void hello(){
+        // tu bude vypis
+    }
 
     public int getMath() {
         return math;
     }
 
     public int getEng() {
-        return eng;
+        return eng+52;
     }
 
     public int getPro() {
         return pro;
     }
+    
     @Override
     public String toString(){
-        return "Grades: MATH: "+math+" ENG: "+eng+" PRO: "+pro;
+        return "The best Grades: MATH: "+math+" ENG: "+eng+" PRO: "+pro;
 }
 
+    // comment
     public double average(){
         return (double) (math+eng+pro)/3;
     }

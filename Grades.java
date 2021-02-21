@@ -13,6 +13,7 @@ public class Grades {
     
     public void hello(){
         // tu bude vypis
+        System.out.println();
     }
 
     public int getMath() {

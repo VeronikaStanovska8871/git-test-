@@ -6,11 +6,12 @@ public class Grades {
     private int pro;
     private int bio;
 
-    public Grades(int math, int eng, int pro) {
+    public Grades(int math, int eng, int pro, int bio) {
         this.math = math;
         this.eng = eng;
         //to do add bio
         this.pro = pro;
+        this.pro=bio;
     }
 
     public int getMath() {
